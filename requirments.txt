@@ -1,0 +1,16 @@
+asgiref==3.5.2
+certifi==2019.11.28
+chardet==3.0.4
+crispy-bootstrap5==0.7
+Django==4.1.4
+django-cleanup==4.0.0
+django-crispy-forms==1.14.0
+djangorestframework==3.14.0
+Pillow==9.2.0
+psycopg2==2.9.5
+PyJWT==1.7.1
+pytz==2019.3
+six==1.13.0
+sqlparse==0.3.0
+tzdata==2022.7
+urllib3==1.25.7

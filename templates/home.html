@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title%}HOME{% endblock %}
+
+{% block content%}
+
+<div class="container text-center"> 
+{% for p in posts%}
+<div class="card mx-4 mt-5 " style="width: 18rem; display:inline-block">
+    <img src="{{p.img.url}}" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">{{p.movie}}</h5>
+      <p class="card-text">{{p.author}}</p>
+      <p class="card-text">{{p.description | slice:100 | add:'....'}}</p>
+      
+    </div>
+  </div>
+{% endfor %}
+</div>
+{% endblock %}
